@@ -1,0 +1,109 @@
+@import 'tailwindcss';
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: rgb(58, 129, 58);
+}
+
+img {
+	width: 100%;
+	height: 250px;
+	display: block;
+	border: 5px solid rgb(42, 194, 4);
+}
+
+#item-img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 100px;
+	border: 5px solid rgb(255, 238, 2);
+}
+#input-search {
+	margin: 12px;
+	size: 60%;
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+	text-align: center;
+	border: 1px solid black;
+	border-color: #797980;
+	background-color: rgb(255, 255, 255);
+}
+#search {
+	display: flex;
+	justify-content: center;
+	max-width: 400px;
+	min-width: 200px;
+	margin: auto;
+	border-radius: 20px;
+	background-color: rgb(56, 177, 52);
+}
+#card {
+	display: flex;
+	max-width: 60%;
+	min-width: 200px;
+	margin: auto;
+	border: 5px solid rgb(255, 255, 255);
+	border-radius: 20px;
+	background-color: rgb(56, 177, 52);
+	text-align: center;
+	color: rgb(255, 255, 255);
+	white-space: nowrap;
+}
+#style-card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 100px;
+	min-width: 160px;
+	margin: 20px;
+	border-radius: 20px;
+	border: 1px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	background-color: rgb(4, 73, 2);
+	text-align: center;
+	white-space: normal;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	padding: 7px;
+	transition: background-color 0.3s ease;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#item-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: rgb(4, 73, 2);
+  color: white;
+  text-align: center;
+}
+
+#item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(193, 247, 0);
+  background-color: rgb(22, 204, 16);
+  color: white;
+  text-align: center;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
