@@ -142,3 +142,17 @@ img {
   overflow-wrap: break-word;
 }
 
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(193, 247, 0);
+  background-color: rgb(22, 204, 16);
+  color: white;
+  text-align: center;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}

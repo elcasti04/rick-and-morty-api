@@ -59,6 +59,8 @@ function App() {
       <div id='item-box'>
 			<List residents={location?.residents} />
       </div>
+
+	  <footer id = 'footer'>©Derechos Reservados | Autor: Andres Castro </footer>
 		</div>
 	);
 }
